@@ -4,8 +4,6 @@ import (
 	"github.com/boltdb/bolt"
 )
 
-
-
 type BlockchainIterator struct {
 	currentHash []byte
 	db          *bolt.DB
