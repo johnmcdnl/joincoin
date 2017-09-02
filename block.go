@@ -1,9 +1,9 @@
 package johncoin
 
 import (
-	"log"
 	"bytes"
 	"encoding/gob"
+	"log"
 	"time"
 )
 

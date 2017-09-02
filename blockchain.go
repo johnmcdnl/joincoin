@@ -98,6 +98,6 @@ func NewBlockchain() *Blockchain {
 	return &bc
 }
 
-func (bc *Blockchain)Close(){
+func (bc *Blockchain) Close() {
 	bc.db.Close()
 }

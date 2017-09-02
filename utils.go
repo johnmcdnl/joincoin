@@ -1,9 +1,9 @@
 package johncoin
 
 import (
+	"bytes"
 	"encoding/binary"
 	"log"
-	"bytes"
 )
 
 func IntToHex(num int64) []byte {
